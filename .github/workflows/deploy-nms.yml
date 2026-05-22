@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'docker/nms/**'
+  workflow_dispatch:
 
 jobs:
   deploy:
